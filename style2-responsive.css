@@ -1,0 +1,139 @@
+/* Estilos para pantallas pequeñas */
+
+@media only screen and (max-width: 439px) {
+
+    /* Navegador */
+    nav ul {
+      text-align: center;
+    }
+  
+    nav li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    /* Portada */
+    .header {
+      height: 300px;
+    }
+  
+    .image {
+      position: static;
+      display: block;
+      margin: 0 auto;
+      
+    }
+  
+    .image img {
+      width: 150px;
+      height: 150px;
+      margin-top: 35px;
+    }
+  
+    .image-text {
+      position: static;
+      display: block;
+      margin: 10px auto;
+      text-align: center;
+    }
+  
+    /* Acerca de */
+    .acerdaDemi {
+      height: auto;
+    }
+    .container-AcercaDemi h1{
+        margin: 0px;
+    }
+
+  
+    .col {
+      flex-basis: 100%;
+      margin: 10px 0;
+    }
+  
+    /* Educación */
+    .education {
+      height: auto;
+    }
+    .education h1 {
+        margin: 0px;
+    }
+  
+    article {
+      height: auto;
+    }
+  
+    i {
+      font-size: 50px;
+      margin-right: 10px;
+    }
+  
+    /* Proyectos */
+    .proyectos {
+      height: auto;
+      
+    }
+    .proyectos  h1{
+        margin-bottom: 0px;
+      }
+    .col {
+        flex-basis: 100%;
+        margin: 10px 0;
+    }
+  
+    /* Habilidades */
+    .skill-bar {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+    }
+    .habilidades h1 {
+        margin: 0px;
+    }
+  
+    .bar {
+      height: 20px;
+      margin: 10px 0;
+    }
+  
+    .percentage {
+      margin: 0;
+    }
+  
+    /* Experiencia */
+    .experiencia {
+      height: auto;
+      margin-top: 230px;
+      margin-bottom: 30px;
+    }
+    .experiencia h1 {
+        margin: 0px;
+    }
+  
+    .experiencia-parrafos p {
+      padding: 20px 0;
+    }
+
+    /*footer*/
+    .footer a {
+        margin: 0px;
+        padding: 0px;
+    }
+    .fa-linkedin:before {
+        font-size: 25px;
+    }
+    .fa-facebook-f:before {
+        font-size: 25px;
+    }
+    .fa-envelope:before {
+        font-size: 25px;
+    }
+    .fa-instagram:before {
+        font-size: 25px;
+    }    
+  
+  }
+  
+
+
+
